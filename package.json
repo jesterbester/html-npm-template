@@ -8,7 +8,7 @@
     "watch:js": " onchange 'js/*.js' -- npm run concat ",
     "watch:sass": " onchange 'scss/*.scss' -- npm run sass ",
     "autoprefix": "postcss --use autoprefixer -b 'last 5 versions' css/main.css -d css",
-    "sass": "node-sass --include-path scss scss/main.scss  css/main.css && npm run autoprefix",
+    "sass": "node-sass --include-path scss scss/main.scss  css/main.css --source-map-root file://${PWD}/ --source-map-embed true  && npm run autoprefix",
     "concat": "concat-glob-cli -f js/*.js -o js/bundle.js",
     "dev": "parallelshell 'npm run server' 'npm run watch:sass' 'npm run watch:js' "
   },
