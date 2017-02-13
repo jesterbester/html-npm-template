@@ -1,0 +1,44 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'run', 'concat' ]
+2 info using npm@4.1.2
+3 info using node@v7.4.0
+4 verbose run-script [ 'preconcat', 'concat', 'postconcat' ]
+5 info lifecycle lc_rayban@1.0.0~preconcat: lc_rayban@1.0.0
+6 silly lifecycle lc_rayban@1.0.0~preconcat: no script for preconcat, continuing
+7 info lifecycle lc_rayban@1.0.0~concat: lc_rayban@1.0.0
+8 verbose lifecycle lc_rayban@1.0.0~concat: unsafe-perm in lifecycle true
+9 verbose lifecycle lc_rayban@1.0.0~concat: PATH: /usr/local/lib/node_modules/npm/bin/node-gyp-bin:/Users/mitchel/Sites/lc_rayban/node_modules/.bin:/usr/local/lib/node_modules/npm/bin/node-gyp-bin:/Users/mitchel/Sites/lc_rayban/node_modules/.bin:/usr/local/lib/node_modules/npm/bin/node-gyp-bin:/Users/mitchel/Sites/lc_rayban/node_modules/.bin:/Users/mitchel/.rvm/gems/ruby-2.2.0/bin:/Users/mitchel/.rvm/gems/ruby-2.2.0@global/bin:/Users/mitchel/.rvm/rubies/ruby-2.2.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/mitchel/.rvm/bin:/Users/mitchel/.rvm/bin:/usr/local/go/bin
+10 verbose lifecycle lc_rayban@1.0.0~concat: CWD: /Users/mitchel/Sites/lc_rayban
+11 silly lifecycle lc_rayban@1.0.0~concat: Args: [ '-c', 'concat-glob-cli -f js/*.js -o js/bundle.js' ]
+12 info lifecycle lc_rayban@1.0.0~concat: Failed to exec concat script
+13 verbose stack Error: lc_rayban@1.0.0 concat: `concat-glob-cli -f js/*.js -o js/bundle.js`
+13 verbose stack spawn ENOENT
+13 verbose stack     at ChildProcess.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/spawn.js:33:16)
+13 verbose stack     at emitTwo (events.js:106:13)
+13 verbose stack     at ChildProcess.emit (events.js:191:7)
+13 verbose stack     at maybeClose (internal/child_process.js:885:16)
+13 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
+14 verbose pkgid lc_rayban@1.0.0
+15 verbose cwd /Users/mitchel/Sites/lc_rayban
+16 error Darwin 16.4.0
+17 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "run" "concat"
+18 error node v7.4.0
+19 error npm  v4.1.2
+20 error file sh
+21 error code ELIFECYCLE
+22 error errno ENOENT
+23 error syscall spawn
+24 error lc_rayban@1.0.0 concat: `concat-glob-cli -f js/*.js -o js/bundle.js`
+24 error spawn ENOENT
+25 error Failed at the lc_rayban@1.0.0 concat script 'concat-glob-cli -f js/*.js -o js/bundle.js'.
+25 error Make sure you have the latest version of node.js and npm installed.
+25 error If you do, this is most likely a problem with the lc_rayban package,
+25 error not with npm itself.
+25 error Tell the author that this fails on your system:
+25 error     concat-glob-cli -f js/*.js -o js/bundle.js
+25 error You can get information on how to open an issue for this project with:
+25 error     npm bugs lc_rayban
+25 error Or if that isn't available, you can get their info via:
+25 error     npm owner ls lc_rayban
+25 error There is likely additional logging output above.
+26 verbose exit [ 1, true ]
