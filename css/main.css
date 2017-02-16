@@ -1,3 +1,19 @@
-body {
-  background-color: #fff !important; }
-/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImZpbGU6Ly8vVXNlcnMvbWl0Y2hlbC9TaXRlcy9sY19yYXliYW4vc2Nzcy9tYWluLnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQ0E7RUFDQyxrQ0FBa0MsRUFFbEMiLCJmaWxlIjoibWFpbi5jc3MifQ== */
+body * {
+  color: #770852; }
+
+body .main-content {
+  width: 80%;
+  margin: 0 auto; }
+  @media screen and (max-width: 767px) {
+    body .main-content {
+      width: 95%; } }
+  body .main-content h1 {
+    font-family: "Roboto Slab", Times, serif;
+    font-size: 2em;
+    text-align: center;
+    margin: 1em 0; }
+  body .main-content p {
+    font-family: "Open Sans", Arial, sans-serif;
+    font-size: 1em;
+    margin-bottom: 1em; }
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImZpbGU6Ly8vVXNlcnMvamVuYW1lZGVpcm9zL0Rlc2t0b3AvbGFtcHJvcy1sZWFybmluZy9odG1sLW5wbS10ZW1wbGF0ZS9zY3NzL21haW4uc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFxQkE7RUFFRSxlQXRCZ0IsRUF1QmhCOztBQUhGO0VBTUUsV0FuQnVCO0VBb0J2QixlQUFjLEVBbUJkO0VBL0JBO0lBS0Y7TUFVRyxXQXRCcUIsRUFzQ3RCLEVBQUE7RUExQkY7SUFjRyx5Q0E5QnFDO0lBK0JyQyxlQUFjO0lBQ2QsbUJBQWtCO0lBQ2xCLGNBQWEsRUFDYjtFQWxCSDtJQXFCRyw0Q0F0Q3NDO0lBdUN0QyxlQUFjO0lBQ2QsbUJBQWtCLEVBQ2xCIiwiZmlsZSI6Im1haW4uY3NzIn0= */

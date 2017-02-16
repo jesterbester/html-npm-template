@@ -1,5 +1,50 @@
-$josh:#fff;
-body{
-	background-color: $josh !important;
-	
+// Colors
+$burgandy: #770852;
+
+// Fonts
+$openSans: 'Open Sans', Arial, sans-serif;
+$robotoSlab: 'Roboto Slab', Times, serif;
+
+// Container width
+$desktopContentWidth: 80%;
+$mobileContentWidth: 95%;
+
+// Media query breakpoints
+$widthTablet: 767px;
+
+// Media queries
+@mixin tablet {
+  @media screen and (max-width: #{$widthTablet}) {
+    @content;
+  }
 }
+
+body {
+	& * {
+		color: $burgandy;
+	}
+	
+	& .main-content {
+		width: $desktopContentWidth;
+		margin: 0 auto;
+
+		@include tablet {
+			width: $mobileContentWidth;
+		}
+
+		& h1 {
+			font-family: $robotoSlab;
+			font-size: 2em;
+			text-align: center;
+			margin: 1em 0;
+		}
+
+		& p {
+			font-family: $openSans;
+			font-size: 1em;
+			margin-bottom: 1em;
+		}
+
+	}
+}
+
